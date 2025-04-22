@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "data_dashboards_venv"
+version = "0.2.0"
+description = "Python environment for this repository"
+authors = ["tabsa <tas.tiago.sousa@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/tabsa/Data_Engineer_projects/guide_on_duckdb"
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+pathlib = "*"
+watchfiles = "*"
+pandas = "*"
+altair = "*"
+seaborn = "*"
+matplotlib = "*"
+plotly = "*"
+panel = "*"
+ipykernel = "*"
+jupyter = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
